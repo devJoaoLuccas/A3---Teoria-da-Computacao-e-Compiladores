@@ -2,9 +2,10 @@
 
 Curso: Teoria da Computação e Compiladores
 Faculdade: UNIFACS
-Grupo: João Luccas Lordelo Marques - 12725224055
-       Maurício Gabriel leal da Silva - 12724157145 
-       Pablo Ernesto da Cunha Guerreiro - 12724111921
+Grupo: 
+       * João Luccas Lordelo Marques - 12725224055
+       * Maurício Gabriel leal da Silva - 12724157145 
+       * Pablo Ernesto da Cunha Guerreiro - 12724111921
 
 ## 📌 Sobre o Projeto
 
