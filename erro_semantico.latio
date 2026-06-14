@@ -1,0 +1,10 @@
+initium
+    decimalis piso.
+    numerus piso.
+    
+    scribe("Digite o peso:").
+    lege(piso).
+    
+    resultado = piso * 2.
+    scribe(resultado).
+finis.

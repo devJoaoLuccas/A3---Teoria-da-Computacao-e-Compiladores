@@ -1,0 +1,9 @@
+initium
+    numerus contador.
+    
+    contador = 1   
+    
+    si (contador > 0) {
+        scribe("Contador positivo").
+    }
+finis

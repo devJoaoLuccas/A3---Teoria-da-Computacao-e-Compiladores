@@ -1,0 +1,10 @@
+initium
+    numerus x.
+    x = 10.
+    si (x > 5 {
+        scribe("X é maior que cinco").
+    }
+    dum (x > 0) 
+        scribe("Loop infinito fictício").
+        x = x - 1.
+    }

@@ -1,0 +1,45 @@
+initium
+    textus nome.
+    decimalis piso.
+    decimalis statura.
+    decimalis imc.
+    numerus continuar.
+
+    continuar = 1.
+
+    dum (continuar == 1) {
+        scribe("Insira o nome do paciente:").
+        lege(nome).
+
+        scribe("Insira o peso (em kg, ex: 70.5):").
+        lege(piso).
+
+        scribe("Insira a altura (em metros, ex: 1.75):").
+        lege(statura).
+
+        imc = piso / (statura * statura).
+
+        scribe("O IMC calculado para o paciente é:").
+        scribe(imc).
+
+        si (imc < 18.5) {
+            scribe("Classificação: Abaixo do peso.").
+        }
+        aliter {
+            si (imc < 25.0) {
+                scribe("Classificação: Peso normal.").
+            }
+            aliter {
+                si (imc < 30.0) {
+                    scribe("Classificação: Sobrepeso.").
+                }
+                aliter {
+                    scribe("Classificação: Obesidade.").
+                }
+            }
+        }
+
+        scribe("Deseja calcular o IMC de outro paciente? (1 para Sim, 0 para Não):").
+        lege(continuar).
+    }
+finis.
